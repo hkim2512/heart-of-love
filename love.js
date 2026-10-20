@@ -122,12 +122,10 @@ function Rise() {
 }
 
 window.onload = function () {
-    setTimeout(() => {
 
         timer = setInterval(() => {
             Next();
         }, 300);
 
 
-    }, 12000);
 };
